@@ -14,14 +14,14 @@ public class Main {
                 String title = resultSet.getString("title");
                 String description = resultSet.getString("description");
                 String publishedAt = resultSet.getString("published_at");
-                String author_uuid = resultSet.getString("author_uuid");
+                String authorUuid = resultSet.getString("author_uuid");
 
                 System.out.println("--------------------");
                 System.out.println("Uuid: " + uuid);
                 System.out.println("Title: " + title);
                 System.out.println("Description: " + description);
                 System.out.println("Published At: " + publishedAt);
-                System.out.println("Author Uuid: " + author_uuid);
+                System.out.println("Author Uuid: " + authorUuid);
             }
 
         } catch (SQLException exception) {
